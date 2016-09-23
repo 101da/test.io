@@ -1,8 +1,113 @@
 <!DOCTYPE html>
+<html lang="de-EU">
 <head>
+  <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beleuchtung und deren Qualitätsmerkmale</title>
 
+<style>
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+html,
+body {
+	width: 100%;
+	height: 100%;
+  margin: 0px;
+}
+noscript h1 {
+ text-align: center;
+ color: black;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 1em;
+ background-color: red;
+ padding: 1.5em;
+ border-width: 0.25em;
+ border-style: solid;
+ border-color: black;
+ position: absolute;
+ left: 25%;
+ top: 25%;
+ z-index: 10000
+}
+body {
+ color: black;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ top: 0px;
+ z-index: 100;
+ font-family: "Pavanam", sans-serif;;
+ font-weight: 300;
+ text-align: center;
+ font-size: 1.5em;
+ margin: 0px;
+}
+.title {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  top: calc(50% - 300px/2); /* height divided by 2*/
+  left: calc(50% - 550px/2); /* width divided by 2*/
+}
+.title h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2em;
+  color: #FFFFFF;
+  text-align: center;
+  position: absolute;
+  border-style: solid;
+  border-width: 0.08em;
+  border-color: #FFFFFF;
+  padding: 0.5em;
+}
+#headerImage {
+  background-color: #00DE52;
+  background-image: linear-gradient(60deg, #FF3A19, #00FF8D);
+  background-image: url("unsplash_by_photo-by-hs-creator.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+</style>
 </head>
 <body>
-  <h1>test</h1>
+  <noscript><h1>Bitte aktivieren Sie Javascript, sonst können leider keine Pop-Ups dargestellt werden.</h1></noscript>
+  <div id="headerImage"></div>
+  <div class="header">
+    <div class="title">
+      <h1>Beleuchtung <br/> und deren Qualitätsmerkmale</h1>
+    </div>
+  </div>
+  <section class="specsheet">
+    <h1>Datenblatt:</h1>
+    <p>500lm</p>
+    <table style="width: 100%">
+       <tr>
+         <th>th</th>
+         <th>th</th>
+         <th>th</th>
+       </tr>
+       <tr>
+         <th>th2</th>
+         <th>th2</th>
+         <th>th2</th>
+       </tr>
+    </table>
+  </selction>
+  <section class="feedback">
+    <h1>Danke fürs zuhören!</h1>
+    <a href="#">Feedback</a>
+  </section>
+  <footer>
+    <a href="#" title="Wer wir sind"><i class="fa fa-fw fa-diamond"></i><span>Über uns</span></a><wbr/>
+    <a href="#" title="eingebundene Werke von anderen"><i class="fa fa-fw fa-copyright"></i><span>Credits</span></a>
+  </footer>
 </body>
 </html>
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Pavanam" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="font-awesome-4.6.3\css\font-awesome.min.css"/>
+<link rel="stylesheet" href="Allgemein.css">
+<script src="Allgemein.js"></script>

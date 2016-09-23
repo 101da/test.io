@@ -1,0 +1,25 @@
+h1::selection {
+  background: #FA4800;
+}
+h1::-moz-selection {
+  background: #FA4800;
+}
+p::selection {
+  background: #FA4800;
+}
+p::-moz-selection {
+  background: #FA4800;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:visited {
+  color: #7A6A6A;
+}
+a:active {
+  #FF0054;
+}
+.specsheet {
+  
+}
