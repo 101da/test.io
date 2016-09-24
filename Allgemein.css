@@ -20,6 +20,15 @@ a:visited {
 a:active {
   #FF0054;
 }
-.specsheet {
-  
+.specsheet table {
+  width: 60%;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 0% 20% 0% 20%;
+}
+.specsheet th, td {
+  border-bottom: 1px solid #000;
+}
+.specsheet td {
+  text-align: left
 }
