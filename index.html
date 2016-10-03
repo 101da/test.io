@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Beleuchtung und deren Qualitätsmerkmale</title>
+<title>Die Wirkung von Licht</title>
 
 <style>
 *, *::after, *::before {
@@ -44,11 +44,10 @@ body {
  margin: 0px;
 }
 .title {
-  width: 100px;
-  height: 50px;
+  width: 800px;
   position: absolute;
-  top: calc(50% - 300px/2); /* height divided by 2*/
-  left: calc(50% - 550px/2); /* width divided by 2*/
+  top: calc(50% - 180px/2); /* height divided by 2*/
+  left: calc(50% - 570px/2); /* width divided by 2*/
 }
 .title h1 {
   font-family: "Montserrat", sans-serif;
@@ -69,6 +68,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 40em;
   height: 100%;
 }
 </style>
@@ -78,25 +78,73 @@ body {
   <div id="headerImage"></div>
   <div class="header">
     <div class="title">
-      <h1>Beleuchtung <br/> und deren Qualitätsmerkmale</h1>
+      <h1>Licht <br/> und dessen Wirkung</h1>
     </div>
   </div>
-  <section class="specsheet">
+  <section class="content">
     <h1>Datenblatt:</h1>
-    <table>
+    <table id="table">
        <tr>
-         <th>Wattage</th>
+         <th class="colorChange">Systemleistung</th>
          <td>45W</td>
        </tr>
        <tr>
-         <th>th2</th>
-         <td></td>
+         <th>Lichtausbeute</th>
+         <td>88lm/W</td>
+       </tr>
+       <tr>
+         <th>Leuchtenlichtstrom</th>
+         <td>3500lm</td>
+       </tr>
+       <tr>
+         <th>Farbtemperatur</th>
+         <td>3000K</td>
+       </tr>
+       <tr>
+         <th>Schlagfestigkeit</th>
+         <td>IK02</td>
+       </tr>
+       <tr>
+         <th>Schutzart</th>
+         <td>IP40</td>
+       </tr>
+       <tr>
+         <th>EEC</th>
+         <td>A++</td>
+       </tr>
+       <tr>
+         <th>Prüfzeichen</th>
+         <td>xxx</td>
+       </tr>
+       <tr>
+         <th>Lebensdauer (L70)</th>
+         <td>50.000h</td>
+       </tr>
+       <tr>
+         <th>Ra / CRI</th>
+         <td>80</td>
+       </tr>
+       <tr>
+         <th>UGR</th>
+         <td><19</td>
+       </tr>
+       <tr>
+         <th>Mac Adams Klasse:</th>
+         <td>3</td>
        </tr>
     </table>
   </section>
+  <section class="content">
+    <h1>Mac Adams Normfarbtafel:</h1>
+    <p class="picture"><a href="https://commons.wikimedia.org/wiki/File:CIExy1931_MacAdam.png#/media/File:CIExy1931_MacAdam.png"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/CIExy1931_MacAdam.png" alt="CIExy1931 MacAdam.png"></a><br><a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=173591">https://commons.wikimedia.org/w/index.php?curid=173591</a></p>
+    <a href="#"><img src="#" title="Mac Adams Ellipse" alt="Das Bild kann leider nicht dargestellt werden" crossorigin="use-credendtials"/></a>
+    <p>
+      test
+    </p>
+  </section>
   <section class="feedback">
     <h1>Danke fürs zuhören!</h1>
-    <a href="#">Feedback</a>
+    <a href="#" title="Können wir noch was besser machen? Sag's uns!">Feedback</a>
   </section>
   <footer>
     <a href="#" title="Wer wir sind"><i class="fa fa-fw fa-diamond"></i><span>Über uns</span></a><wbr/>
