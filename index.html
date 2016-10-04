@@ -1,4 +1,4 @@
-<!--WAS NOCH FEHLT: favicon-->
+<!--WAS NOCH FEHLT: favicon; hreflang (Nebenseiten allgemein - Nutzungsbedingungen, Ueber uns..); media queries!!! - nicht responsive (bisher)-->
 <!DOCTYPE html>
 <html lang="de-EU">
 <head>
@@ -83,8 +83,8 @@ body {
     </div>
   </div>
   <section class="content">
-    <h1>Datenblatt:</h1>
-    <table id="table">
+    <h1 id="Datenblatt">Datenblatt:</h1>
+    <table>
        <tr>
          <th class="colorChange">Systemleistung</th>
          <td>45W</td>
@@ -140,29 +140,35 @@ body {
     <div class="slideshow_container">
       <div class="Slides fade">
         <div class="numbers">1 / 3</div>
-        <a href="https://commons.wikimedia.org/wiki/File:CIE-Normfarbtafel.png#/media/File:CIE-Normfarbtafel.png"><img src="CIE-Normfarbtafel.png" alt="Das Bild konnte leider nicht geladen werden"/></a>
+        <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CIE-Normfarbtafel.png#/media/File:CIE-Normfarbtafel.png"><img src="CIE-Normfarbtafel.png" alt="Das Bild konnte leider nicht geladen werden"/></a>
         <div class="text">
           <div class="slides_description">CIE-Normfarbtafel</div>
           <div class="slides_credits">
-            <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
-            <a href="https://de.wikipedia.org/wiki/User:DiplomBastler" title="de:User:DiplomBastler">von Torge Andreas</a>
+            <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
+            <a target="_blank" href="https://de.wikipedia.org/wiki/User:DiplomBastler" title="de:User:DiplomBastler">von Torge Andreas</a>
           </div>
         </div>
       </div>
-      <div class="Slides fade">
-        <div class="numbers">2 / 3</div>
-        <img src="CIExy1931_MacAdam.png" alt="Das Bild konnte leider nicht geladen werden"/>
-        <div class="text">
-          <div class="slides_description">Die abgewandelte CIE-Normfarbtafel(XY) von MacAdam(1931)</div>
-          <div class="slides_credits">Bildrechte2</div>
+    <div class="Slides fade">
+      <div class="numbers">2 / 3</div>
+      <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CIExy1931_MacAdam.png#/media/File:CIExy1931_MacAdam.png"><img src="CIExy1931_MacAdam.png" alt="Das Bild konnte leider nicht geladen werden"/></a>
+      <div class="text">
+        <div class="slides_description">Die abgewandelte CIE-Normfarbtafel(XY) von MacAdam(1931)</div>
+        <div class="slides_credits">
+         <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
+         <a target="_blank" href="https://commons.wikimedia.org/wiki/User:PAR~commonswiki" title="de:User:PAR~commonswiki">von "PAR"</a>
+          </div>
         </div>
       </div>
-      <div class="Slides fade">
-        <div class="numbers">3 / 3</div>
-        <img src="#"/>
-        <div class="text">
-          <div class="slides_description">Beschreibung3</div>
-          <div class="slides_credits">Bildrechte3</div>
+    <div class="Slides fade">
+      <div class="numbers">3 / 3</div>
+      <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Cie_Chart_with_sRGB_gamut_by_spigget.png#/media/File:Cie_Chart_with_sRGB_gamut_by_spigget.png"><img src="Cie_Chart_with_sRGB_gamut_by_spigget.png"/></a>
+      <div class="text">
+        <div class="slides_description">sRGB-Gamut</div>
+        <div class="slides_credits">
+         <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
+         <a target="_blank" href="https://commons.wikimedia.org/w/index.php?title=User:Spigget&amp;action=edit&amp;redlink=1" title="User:Spigget (page does not exist)">von "Spigget"</a>
+          </div>
         </div>
       </div>
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -173,8 +179,14 @@ body {
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
-    <p class="bock leftside" style="width: 50%">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-    <p class="bock rightside" style="width: 50%">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+    <div class="description">
+     <p class="bock leftside" style="width: 50%">dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+     <p class="bock rightside" style="width: 50%">dolor sit amet, <a href="#">test</a> consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+   </div>
+  </section>
+  <section class="content description">
+    <h1>Ra-Werte:</h1>
+    <a href="#">test</a>
   </section>
   <section class="feedback">
     <h1>Danke fürs zuhören!</h1>

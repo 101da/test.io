@@ -34,6 +34,9 @@ span::selection {
 span::-moz-selection {
   background: #FA4800;
 }
+:target {
+  color: #FF001C;
+}
 a {
   text-decoration: none;
   color: #000;
@@ -54,6 +57,18 @@ a:active {
   padding-top: 0.5em;
   padding-bottom: 1em;
   font-size: 1.75em;
+}
+.description a {
+  font-size: inherit;
+  border-bottom: dotted 1px;
+  padding: 0.0625em;
+  color: #000;
+}
+.description a:hover {
+  transition: 0.8s;
+  color: #FFF;
+  background-color: #000;
+  border-radius: 0.25em;
 }
 .content table {
   width: 60%;
