@@ -24,14 +24,14 @@ body {
   font-family: "Pavanam", sans-serif;;
   font-weight: 300;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.25em;
   margin: 0px;
 }
 noscript h1 {
  text-align: center;
  color: black;
  font-family: 'Montserrat', sans-serif;
- font-size: 1em;
+ font-size: 1.25em;
  background-color: red;
  padding: 1.5em;
  border-width: 0.25em;
@@ -45,8 +45,8 @@ noscript h1 {
 .title {
   width: 800px;
   position: absolute;
-  top: calc(50% - 100px/2); /* height divided by 2*/
-  left: calc(50% - 170px/2); /* width divided by 2*/
+  top: calc(50% - 75px/2); /* height divided by 2*/
+  left: calc(50% - 100px/2); /* width divided by 2*/
 }
 .title h1 {
   font-family: "Montserrat", sans-serif;
@@ -135,58 +135,35 @@ noscript h1 {
   </article>
   <article>
     <h1>Ra-Werte:</h1>
-    <p>test<a href="#">test</a></p>
+    <p>test <a href="#">test</a></p>
   </article>
-  <section class="content_slider">
-    <h1>Mac Adams Normfarbtafel:</h1>
-    <div class="slideshow_container">
-      <div class="Slides fade">
-        <div class="numbers">1 / 3</div>
-        <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CIE-Normfarbtafel.png#/media/File:CIE-Normfarbtafel.png"><img src="CIE-Normfarbtafel.png" alt="Das Bild konnte leider nicht geladen werden"/></a>
-        <div class="text">
-          <div class="slides_description">CIE-Normfarbtafel</div>
-          <div class="slides_credits">
-            <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
-            <a target="_blank" href="https://de.wikipedia.org/wiki/User:DiplomBastler" title="de:User:DiplomBastler">von Torge Andreas</a>
-          </div>
-        </div>
+  <section>
+  <article><h1>CIE- / MacAdams-Normfarbtafel</h1></article>
+    <div style="display: flex">
+     <div class="image">
+       <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CIE-Normfarbtafel.png#/media/File:CIE-Normfarbtafel.png"><img src="CIE-Normfarbtafel.png" alt="Das Bild konnte leider nicht geladen werden"/></a>
+       <p>CIE-Normfarbtafel</p>
+       <div class="credits">
+        <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
+        <a target="_blank" href="https://de.wikipedia.org/wiki/User:DiplomBastler" title="de:User:DiplomBastler">von Torge Andreas</a>
       </div>
-    <div class="Slides fade">
-      <div class="numbers">2 / 3</div>
+     </div>
+    <div class="image">
       <a target="_blank" href="https://commons.wikimedia.org/wiki/File:CIExy1931_MacAdam.png#/media/File:CIExy1931_MacAdam.png"><img src="CIExy1931_MacAdam.png" alt="Das Bild konnte leider nicht geladen werden"/></a>
-      <div class="text">
-        <div class="slides_description">Die abgewandelte CIE-Normfarbtafel(XY) von MacAdam(1931) (Ellipsen 10x vergrößert)</div>
-        <div class="slides_credits">
-         <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
-         <a target="_blank" href="https://commons.wikimedia.org/wiki/User:PAR~commonswiki" title="de:User:PAR~commonswiki">von "PAR"</a>
-          </div>
-        </div>
-      </div>
-    <div class="Slides fade">
-      <div class="numbers">3 / 3</div>
-      <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Cie_Chart_with_sRGB_gamut_by_spigget.png#/media/File:Cie_Chart_with_sRGB_gamut_by_spigget.png"><img src="Cie_Chart_with_sRGB_gamut_by_spigget.png"/></a>
-      <div class="text">
-        <div class="slides_description">sRGB-Gamut</div>
-        <div class="slides_credits">
-         <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
-         <a target="_blank" href="https://commons.wikimedia.org/w/index.php?title=User:Spigget&amp;action=edit&amp;redlink=1" title="User:Spigget (page does not exist)">von "Spigget"</a>
-          </div>
-        </div>
-      </div>
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <p>Die abgewandelte CIE-Normfarbtafel(XY)<br/>von MacAdam(1931) (Ellipsen 10x vergrößert)</p>
+      <div class="credits">
+        <a target="_blank" href="http://creativecommons.org/licenses/by-sa/3.0/" title="Lizenzbedingungen"><i class="fa fa-creative-commons" aria-hidden="true"><span>CC BY-SA 3.0</span></i></a>
+        <a target="_blank" href="https://commons.wikimedia.org/wiki/User:PAR~commonswiki" title="de:User:PAR~commonswiki">von "PAR"</a>
+     </div>
     </div>
-    <div class="sliding_overview" style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+  </div>
     <article style="display: flex">
-     <p class="book leftside" style="width: 50%">Die CIE-Normfarbtafel auch Tristimulus genannt (wegen den drei Primärfarben), stellt die mit dem menschlichen Auge sichtbaren Farben da. Die Farben am äußeren Rand des Dreiecks sind die gesättigten - ohne Einbezug der Helligkeit. Um die Veränderung der Farben durch Helligkeit zu verdeutlichen hellen sich die Farben bis zum absoluten Weiß nach innen hin auf. <br />In Kelvin wird die Wärme eines Leuchtmittels angegeben. Hierbei werden 6500k als kalt-weiß und 3000k als warm-weiß wahrgenommen.</p>
-     <p class="book rightside" style="width: 50%">Die Mac Adams Tafel hat Ellipsen eingezeichnet, da gegenüberliegende Farben nicht wie vorher angenommen gleichwertig sind, sondern sich unterscheiden – die Ellipsen gleichen dies aus. <br/>Die im Dreieck liegenden Farben können vom sRGB Farbraum dargestellt werden (Monitore, Drucker etc.).</p>
+     <p class="book leftside">Die CIE-Normfarbtafel auch Tristimulus genannt (wegen den drei Primärfarben), stellt die mit dem menschlichen Auge sichtbaren Farben da. Die Farben am äußeren Rand des Dreiecks sind die gesättigten - ohne Einbezug der Helligkeit. Um die Veränderung der Farben durch Helligkeit zu verdeutlichen hellen sich die Farben bis zum absoluten Weiß nach innen hin auf.In Kelvin wird die Wärme eines Leuchtmittels angegeben. Hierbei werden 6500k als kalt-weiß und 3000k als warm-weiß wahrgenommen. <br/> In Kelvin wird die Wärme eines Leuchtmittels angegeben. Hierbei werden 6500k als kalt-weiß und 3000k als warm-weiß wahrgenommen.</p>
+     <p class="book rightside">MacAdams Klassen geben an, wie hoch die Farbtreue verschiedener LED-Leuchten innerhalb einer Charge ist. In der Herstellung ist es schwierig eine möglichst wenig variierende Leuchte hinsichtlich der Lichtfarbe herzustellen, deshalb ist die MacAdams Klasse 3 bisher der höchstmögliche Standard.
+Bei der MacAdams Klasse 3 darf sich die Lichtfarbe der Leuchten nur innerhalb 3 Ellipsen in der MacAdams-Normfarbtafel variieren.</p>
    </article>
   </section>
-  <section class="feedback">
+  <section id="feedback">
     <h1>Danke fürs zuhören!</h1>
     <a href="#" title="Können wir noch was besser machen? Sag's uns!">Feedback</a>
   </section>
