@@ -87,6 +87,19 @@ article p {
   font-size: 1.25em;
   text-align: justify;
 }
+.media a {
+  border-bottom: none;
+  padding: 0;
+}
+.media a:hover {
+  transition: none;
+  color: #000;
+  background-color: transparent;
+  border-radius: auto;
+}
+.media a:visited {
+  color: #000
+}
 /*START IMAGE AND IMAGE-DESCRIPTION*/
 .image {
   padding-bottom: 0.5em;
