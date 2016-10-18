@@ -104,15 +104,16 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
 }*/
 .color_wrapper {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: flex-start;
+  flex-direction: row;
   text-align: left;
+  flex-wrap: wrap;
 }
 .item {
   padding: 0.5em 1em 0.5em 1em;
+  margin: 0.2em;
   align-self: center;
-  flex-basis: 10em;
-  width: 5em;
+  flex-basis: 5em;
 }
 .item:nth-child(1n+1) {
   background-color: #2B652B;
@@ -121,10 +122,10 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
   background-color: #16B116;
 }
 .item:nth-child(3n+3) {
-  background-color: #15A815;
+  background-color: #00FE7A;
 }
 .rectangle {
-  width: 2em;
+  width: 3em;
   height: 2em;
 }
 /*START IMAGE AND IMAGE-DESCRIPTION*/
@@ -173,7 +174,7 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
   background-size: cover;
   height: 30em;
 }
-#feedback a, h1 {
+#feedback a, #feedback h1 {
   color: #FFF;
 }
 #feedback:hover {
