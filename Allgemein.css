@@ -116,7 +116,7 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
   flex-basis: 5em;
 }
 .item:nth-child(1n+1) {
-  background-color: #2B652B;
+  background-color: #49f449;
 }
 .item:nth-child(2n+2) {
   background-color: #16B116;
@@ -132,10 +132,13 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
 .image_wrapper {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .image {
-  padding: 0em 2.5em 0.5em 2.5em;
-  /*width: 50%;*/
+  padding: 0em 2.5em 0em 2.5em;
+}
+img {
+  height: 15em
 }
 .credits i span {
   font-family: "Pavanam", sans-serif;
@@ -150,15 +153,14 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
 /*END IMAGE AND IMAGE DESCRIPTION*/
 
 .book {
+  display: flex;
   text-align: justify;
-  padding: 0em 0.5em 0em 0.5em;
   justify-content: center;
+  flex-wrap: wrap;
 }
-.leftside {
-  float: left;
-}
-.rightside {
-  float: right;
+.bookside {
+  flex-basis: 40%;
+  padding: 0em 0.5em 0em 0.5em;
 }
 /*END content*/
 #feedback {
