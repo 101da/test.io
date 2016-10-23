@@ -48,7 +48,7 @@ a:active {
   color:  #FF0054;
 }
 section {
-  padding: 0em 2em 0em 2em;
+  padding: 0% 10% 0% 10%;
 }
 /*article, section {
   padding: 0em 2em 0em 2em;
@@ -82,6 +82,8 @@ article table {
   border-collapse: collapse;
   margin: 0% 20% 0% 20%;
   text-align: left;
+  hyphens: auto;
+  -ms-hyphens: auto;
 }
 article th, td {
   border-bottom: 1px solid #000;
@@ -89,6 +91,8 @@ article th, td {
 article p {
   font-size: 1.25em;
   text-align: justify;
+  hyphens: auto;
+  -ms-hyphens: auto;
 }
 /*WIRD BENÖTIGT?! - kommt zum Einsatz bei
 z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img..!*/
@@ -140,6 +144,9 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
 .image {
   padding: 0em 2.5em 1em 2.5em;
 }
+.image p {
+  margin: 0.5em 0em 0.5em 0em
+}
 /*img {
   height: 15em
 }*/
@@ -162,8 +169,10 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
   flex-wrap: wrap;
 }
 .bookside {
-  flex-basis: 40%;
+  flex-basis: 50%;
   padding: 0em 0.5em 0em 0.5em;
+  hyphens: auto;
+  -ms-hyphens: auto;
 }
 /*END content*/
 #feedback {
