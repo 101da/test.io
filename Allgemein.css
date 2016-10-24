@@ -84,8 +84,9 @@ article table {
   text-align: left;
   hyphens: auto;
   -ms-hyphens: auto;
+  -webkit-hyphens: auto;
 }
-article th, td {
+article th, article td {
   border-bottom: 1px solid #000;
 }
 article p {
@@ -93,6 +94,7 @@ article p {
   text-align: justify;
   hyphens: auto;
   -ms-hyphens: auto;
+  -webkit-hyphens: auto
 }
 /*WIRD BENÖTIGT?! - kommt zum Einsatz bei
 z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img..!*/
@@ -109,6 +111,10 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
 .media a:visited {
   color: #000
 }*/
+/*START Description for formulas*/
+
+/*END formulas*/
+/*START Ra-Werte*/
 .color_wrapper {
   display: flex;
   justify-content: flex-start;
@@ -135,6 +141,7 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
   width: 3em;
   height: 2em;
 }
+/*END Ra-Werte*/
 /*START IMAGE AND IMAGE-DESCRIPTION*/
 .image_wrapper {
   display: flex;
@@ -173,6 +180,7 @@ z.B. Links welche wie Text dargestellt werden sollen - nicht bei Bildern, da img
   padding: 0em 0.5em 0em 0.5em;
   hyphens: auto;
   -ms-hyphens: auto;
+  -webkit-hyphens: auto;
 }
 /*END content*/
 #feedback {
